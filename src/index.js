@@ -2,9 +2,14 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
+import Nest from './pages/index'
+import 'antd/dist/antd.css';
+import TodoList from './redux/TodoList'
+import Countext from './pages/Countext'
+import Demo from './pages/react-redux/index'
 import * as serviceWorker from './serviceWorker';
 
-ReactDOM.render(<App />, document.getElementById('root'));
+ReactDOM.render( < Demo / > , document.getElementById('root'));
 
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.

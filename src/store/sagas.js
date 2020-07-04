@@ -1,0 +1,6 @@
+function* mySaga() {
+
+}
+export {
+    mySaga
+}
